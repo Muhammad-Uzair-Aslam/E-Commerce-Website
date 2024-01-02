@@ -1,14 +1,12 @@
 import Fotter from "../(components)/footer/footer";
 import Navbar from "../(components)/navbar/navbar";
 
-// pages/index.js
 const Wishlist = () => {
   const wishlistItems =[
     { id: 1, name: 'Premium Headphones', price: '$199.99', image: '/headphones.jpg' },
     { id: 2, name: 'Smartwatch', price: '$149.99', image: '/smartwatch.jpg' },
     { id: 3, name: 'Wireless Mouse', price: '$29.99', image: '/mouse.jpg' },
     { id: 4, name: 'Gaming Keyboard', price: '$79.99', image: '/keyboard.jpg' },
-    // Add more dummy data as needed
   ];
   return (
     <>
