@@ -10,17 +10,14 @@ const Signup = () => {
     email: "",
     password: "",
   });
-
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add logic for form submission (e.g., send data to a backend)
     console.log("Form submitted:", formData);
   };
-
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100  dark:bg-gray-800 dark:text-white">
       <div className="bg-white p-8 rounded shadow-md w-96">
