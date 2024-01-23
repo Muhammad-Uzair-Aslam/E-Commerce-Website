@@ -3,7 +3,6 @@ import Navbar from '../(components)/navbar/navbar'
 import Dropdown from '../(components)/dropdown'
 import Prodcard from '../(components)/prodcard'
 import Fotter from '../(components)/footer/footer'
-
 export default function page() {
   return (
     <>
