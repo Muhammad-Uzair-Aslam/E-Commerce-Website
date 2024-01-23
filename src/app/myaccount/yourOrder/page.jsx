@@ -1,10 +1,7 @@
 // pages/orderDetails.js
-
 import Navbar from '@/app/(components)/navbar/navbar';
 import React from 'react';
-
 const OrderDetails = () => {
-
   return (
     <>
     <Navbar/>
