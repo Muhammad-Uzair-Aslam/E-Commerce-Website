@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { useState } from 'react';
 import Navbar from '../(components)/navbar/navbar';
 import Fotter from '../(components)/footer/footer';
-
 const Cart = () => {
   const [cartItems, setCartItems] = useState([
     {
@@ -16,11 +15,9 @@ const Cart = () => {
     },
     // Add more items as needed
   ]);
-
   const calculateTotal = () => {
     return cartItems.reduce((total, item) => total + item.price * item.quantity, 0).toFixed(2);
   };
-
   const calculateTotalItems = () => {
     return cartItems.reduce((totalItems, item) => totalItems + item.quantity, 0);
   };
