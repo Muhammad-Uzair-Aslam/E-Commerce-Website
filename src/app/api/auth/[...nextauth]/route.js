@@ -2,10 +2,7 @@ import NextAuth from "next-auth"
 import CredentialsProvider from "next-auth/providers/credentials"
 import GoogleProvider from "next-auth/providers/google";
 import { prisma } from "../../../../config/prisma"
-
-
 const authOptions = {
-
     providers: [
         CredentialsProvider({
             name: 'Credentials',
